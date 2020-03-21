@@ -1,0 +1,24 @@
+{
+    "name": "star-wars-universe-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sachinpatel88/star-wars-universe-server.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sachinpatel88/star-wars-universe-server/issues"
+    },
+    "homepage": "https://github.com/sachinpatel88/star-wars-universe-server#readme",
+    "dependencies": {
+        "apollo-datasource-rest": "^0.8.0",
+        "apollo-server": "^2.11.0",
+        "graphql": "^14.6.0"
+    }
+}
