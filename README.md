@@ -1,4 +1,4 @@
-# star-wars-universe
+# Star Wars Universe Server
 
 GraphQL server for Star Wars Universe API provided by http://swapi.co/.
 
@@ -26,7 +26,6 @@ If haven't cloned [star-wars-universe](https://github.com/sachinpatel88/star-war
 
 ```sh
 Clone https://github.com/sachinpatel88/star-wars-universe
-
 ```
 
 Open src/screens/index.js and find

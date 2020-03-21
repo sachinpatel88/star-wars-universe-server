@@ -11,7 +11,7 @@ const {
 // For faster development, making easy to switch between
 // online API request and dummyData.js
 // Add if conditions to all resolvers
-const useDummyData = true;
+const useDummyData = false;
 
 class StarWarsAPI extends RESTDataSource {
     constructor() {
