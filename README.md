@@ -28,18 +28,20 @@ If haven't cloned [star-wars-universe](https://github.com/sachinpatel88/star-war
 Clone https://github.com/sachinpatel88/star-wars-universe
 ```
 
-Open src/screens/index.js and find
+Open src/webpack.config.js and find
 
 ```javascript
-const link = new HttpLink({
-    uri: 'http://localhost:4000/'
-});
+new webpack.DefinePlugin({
+    GRAPHQL_SERVER_URL: JSON.stringify(
+        process.env.GRAPHQL_SERVER_URL || 'http://localhost:4000/'
+    )
+}),
 ```
 
 ```
-Replace http://localhost:4000/ with [NEW_URL]
+Replace http://localhost:4000/ with [NEW_URL] Or you can pass env.GRAPHQL_SERVER_URL from node start command.
 ```
 
 # Todo
 
--   Deploy on server
+-   ~~Deploy on server~~
